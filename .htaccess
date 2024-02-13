@@ -1,6 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine on
-RewriteRule ^([^./]+)/?$ $1.html [L]
-
-RewriteRule ^stg/about$ stg/about.html
-
