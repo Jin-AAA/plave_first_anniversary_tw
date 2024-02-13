@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^([^./]+)/?$ $1.php [L]
+
+RewriteRule ^stg/about$ stg/about.php
+
