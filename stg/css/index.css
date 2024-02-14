@@ -68,6 +68,7 @@ h1 {font-size:30px; color:white; text-align:center; filter:drop-shadow(0 0 1rem 
 
     /* .photo_slide {margin:-20px 0px 30px 0px;}
     .photo_slide img {width:50%;} */
+    .cont {margin:-20px 0px 30px 0px;}
     .tithome li img {max-width:250px;}
 
     h1 {font-size:20px;}
