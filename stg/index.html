@@ -1,7 +1,3 @@
-<?php   
-	/*require('app/config/boot.php');*/
-	include('app/config.php');/*每頁依層級改變*/
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,14 +33,59 @@
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
+<!-- GSAP -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+<link href="css/main.css" rel="stylesheet" type="text/css" charset="utf-8"/>
+<link href="css/index.css" rel="stylesheet" type="text/css" charset="utf-8"/>
 
 </head>
  
 <body>
 
-測試站
+<div id="in_con">
+
+	<img class="slogan" src="images/slogan.svg">
+
+	<div class="photo_slide">
+		<img src="images/index_photo_1.png">
+		<img src="images/index_photo_2.png">
+		<img src="images/index_photo_3.png">
+		<img src="images/index_photo_1.png">
+		<img src="images/index_photo_2.png">
+		<img src="images/index_photo_3.png">
+		<img src="images/index_photo_1.png">
+		<img src="images/index_photo_2.png">
+		<img src="images/index_photo_3.png">
+	</div>
+
+	<h1 class="prata-regular">PLAVE 1st Anniversary</h1>
+
+	<div class="nav">
+		<a class="btns" href="javascript:;">ABOUT THIS</a>
+		<a class="btns" href="javascript:;">ABOUT PLAVE</a>
+		<a class="btns" href="javascript:;">ABOUT DATE</a>
+		<a class="btns" href="javascript:;">ABOUT OOTD</a>
+	</div>
+
+</div>
+
+
+
 
 </body>
  
 </html>
 
+
+<!-- ticker -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link href="js/ticker/ticker.min.css" rel="stylesheet" type="text/css" charset="utf-8"/>
+<script type="text/javascript" src="js/ticker/ticker.min.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
