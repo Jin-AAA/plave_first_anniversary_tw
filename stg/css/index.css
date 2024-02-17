@@ -23,6 +23,7 @@ body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-
     width: 100%;
     overflow: hidden;
     margin:-50px 0px 50px 0px;
+    transform:rotate(358deg) translate(0px, 0px);
 }
 
 .scorri{
@@ -38,13 +39,14 @@ body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     flex-shrink: 0;
+    margin:0px -2px;
 }
 
 .tithome li{
     width: fit-content;
     display: inline-block;
     list-style: none;
-    padding-right: 30px;
+    margin-right:-5px;
     font-size: 40px;
 }
 
