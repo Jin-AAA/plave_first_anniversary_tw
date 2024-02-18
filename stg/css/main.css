@@ -16,7 +16,7 @@
 
 * {margin:0px; padding:0px;}
 
-body, html {font-family:'SweiSansCJKtc-Regular','微軟正黑體','Microsoft Jhenghei',sans-serif; font-size:16px; line-height:24px; font-weight:300; position:relative;}
+body, html {font-family:'SweiSansCJKtc-Regular','微軟正黑體','Microsoft Jhenghei',sans-serif; font-size:16px; line-height:24px; font-weight:300; position:relative; overflow-x:hidden;}
 a, input, button {text-decoration:none; outline:none !important;}
 a:hover, a:focus, a:active {text-decoration:none; cursor:pointer !important; outline:none !important;}
 ul, li {list-style:none;}
@@ -28,6 +28,15 @@ ul, li {list-style:none;}
     font-weight: 400;
     font-style: normal;
 }
+
+/* loading */
+.se-pre-con {position:fixed; left:0px; top:0px; width:100%; height:calc(var(--vh, 1vh) * 100); z-index:9999; background: #e2efff;}
+.se-pre-con .img {position:fixed; left:calc(50% - 150px); top:calc(50% - 150px); width: 300px; margin:0 auto;}
+.se-pre-con .img img {width:100%;}
+/*Loading Bar*/
+#progress{ height:3px; background:#4563d3; position:absolute; width:0; bottom:-50px; }
+#progstat{ font-size:0.7em; letter-spacing: 3px;  position:absolute; bottom:-30px; margin-top:-40px; width:100%;text-align:center; color:#4563d3;}
+
 
 .btns {position:relative; padding:10px 40px 10px 30px; background:#4563d3; font-size:16px; color:white; text-align:center; margin:15px; border-radius:50px; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
 .btns::after {content:''; width:50px; height:50px; background:url(../images/star.svg) center no-repeat; background-size:contain; position:absolute; right:-12px; top:-12px; z-index:1; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}

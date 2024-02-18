@@ -6,7 +6,7 @@ body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-
 
 #in_con {display:flex; flex-wrap:wrap; justify-content:center; align-items:center; align-content:center; height:90vh;}
 
-.slogan {display:block; width:70%; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 0.6rem #88ccfc); z-index:2;}
+.slogan {display:block; width:70%; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 0.6rem #88ccfc); z-index:2; transform:scale(0.8); opacity:0;}
 
 /* .photo_slide {width:100vw; margin:-50px 0px 50px 0px; position:relative;
     display: flex;
@@ -24,6 +24,7 @@ body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-
     overflow: hidden;
     margin:-50px 0px 50px 0px;
     transform:rotate(358deg) translate(0px, 0px);
+    opacity:0;
 }
 
 .scorri{
@@ -57,9 +58,9 @@ body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-
     100% { transform: translateX(-100%); }
 }
 
-h1 {font-size:30px; color:white; text-align:center; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc);}
+h1 {font-size:30px; color:white; text-align:center; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc); opacity:0;}
 
-.nav {display:flex; width:100%; align-items:center; justify-content:center; margin:30px auto;}
+.nav {display:flex; width:100%; align-items:center; justify-content:center; margin:30px auto; opacity:0;}
 
 
 @media screen and (max-width: 480px) {
