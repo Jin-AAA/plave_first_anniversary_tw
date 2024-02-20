@@ -72,12 +72,12 @@ h1 {font-size:30px; color:white; text-align:center; filter:drop-shadow(0 0 1rem 
     /* .photo_slide {margin:-20px 0px 30px 0px;}
     .photo_slide img {width:50%;} */
     .cont {margin:-20px 0px 30px 0px;}
-    .tithome li img {max-width:250px;}
+    .tithome li img {max-width:200px;}
 
-    h1 {font-size:20px;}
+    h1 {font-size:22px;}
 
     .nav {flex-wrap:wrap;}
-    .btns {width:40%; padding:6px 20px; margin:10px;}
+    .btns {width:40%; padding:6px 20px; margin:7px 10px;}
     .btns::after {width:40px; height:40px; right:-5px; top:-9px;}
     
 }

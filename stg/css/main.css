@@ -43,6 +43,10 @@ ul, li {list-style:none;}
 .btns:hover {background:#1f41bf; padding:10px 50px 10px 30px;}
 .btns:hover::after {width:55px; height:55px; top:-15px;}
 
+footer {position:relative; padding:20px;}
+footer p {display:table; padding:5px 12px; font-size:12px; text-align:center; color:white; background:#394b8f; margin:auto; border-radius:50px;}
+footer a {color:white;}
+
 
 @media screen and (max-width: 480px) {
     
