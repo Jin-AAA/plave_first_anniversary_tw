@@ -1,0 +1,33 @@
+body{
+	display:none;
+}
+#jpreOverlay {
+	background-color:#e2efff;
+}
+
+#jpreLoader{/*load img*/
+	background:url(../../images/loading.png) center top no-repeat;
+/*
+	padding-top:100px;
+	margin-left: -15px;
+	margin-top:-180px;
+*/
+	width:200px;
+	height:70px;
+	margin-top:-50px;/*減掉img高的一半*/
+	left: 50% !important;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#jpreBar {
+
+	/*border-radius:3px;*/
+	background:transparent;
+}
+#jprePercentage {/*load text*/
+	color:#4563d3;
+	text-align:center;
+	font-size:0.7em; letter-spacing: 3px;
+}
