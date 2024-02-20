@@ -3,7 +3,6 @@
 
 body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-size:cover;}
 
-
 #in_con {display:flex; flex-wrap:wrap; justify-content:center; align-items:center; align-content:center; height:90vh;}
 
 .slogan {display:block; width:70%; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 0.6rem #88ccfc); z-index:2; transform:scale(0.8); opacity:0;}
