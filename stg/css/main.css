@@ -62,6 +62,13 @@ footer {position:relative; padding:20px;}
 footer p {display:table; padding:5px 12px; font-size:12px; text-align:center; color:white; background:#394b8f; margin:auto; border-radius:50px;}
 footer a {color:white;}
 
+.reverse {-moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);}
+.wrapper {display:block; width:90%; max-width:1200px; margin:120px auto;}
+.page_title {font-size:30px; text-align:center; color: #4563d3; font-family:'SweiSansCJKsc-Bold';}
+
 
 @media screen and (max-width: 650px) {
 
