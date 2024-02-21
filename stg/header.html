@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+$(function(){
+
+    $('header #ham').click(function(){
+        $(this).toggleClass('open');
+            $('header .nav').slideToggle();
+    });
+
+})
+</script>
+</head>
+ 
+<body>
+
+    <div class="center">
+        <a class="logo" href="#"><img src="images/slogan.svg"></a>
+        <div id="ham">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav">
+            <a href="#">PLAVE</a>
+            <a href="#">THAT DAYS</a>
+            <a href="#">OOTD</a>
+            <a href="#">LOVE</a>
+            <a href="#">ABOUT</a>
+        </div>
+    </div>
+
+</body>
+ 
+</html>
