@@ -1,14 +1,41 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:100% 100%;}
+body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:cover;}
 
-.pic_a {display:block; width:100%; margin:0px auto 80px auto;}
+.page_title {opacity:0;}
 
+.pic_a {display:block; width:100%; margin:0px auto 80px auto; opacity:0;}
+
+.group {margin-bottom:60px; opacity:0;}
+.group p {font-size:18px; line-height:30px; color:#4563d3; text-align:center;}
+
+.member {display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; margin:30px auto 0px auto;}
+.member img {width:40%; margin:2%;}
+.member .member_info {width:40%; margin:2%;}
+.member .member_info p {font-size:16px; line-height:30px;}
+.member .member_info p.name {display:table; padding:2px 15px; border-radius:30px; margin-bottom:10px; background:#2d428f; color:white;}
+
+.member .memrt p {text-align:right;}
+.member .memrt p.name {float:right;}
+
+.memmb {display:none;}
+
+#yejun, #noah_pc, #noah_mb, #bamby, #eunho_pc, #eunho_mb, #hamin {opacity:0;}
 
 
 @media screen and (max-width: 480px) {
 
-    
+    .pic_a {margin:20px auto;}
+    .group p {font-size:15px; line-height:24px;}
+
+    .member {flex-wrap:wrap;}
+    .member img {width:70%;}
+    .member .member_info {width:auto;}
+    .member .member_info p.name {margin:auto; margin-bottom:10px;}
+    .member .member_info p {font-size:15px; line-height:24px; text-align:center;}
+
+    .mempc {display:none;}
+    .memmb {display:flex;}
     
 }
