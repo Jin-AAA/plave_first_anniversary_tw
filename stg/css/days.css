@@ -3,12 +3,16 @@
 
 body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:cover;}
 
+#clndr_con {height:90vh;}
+
 #calendar {
 	max-width: 1100px;
 	margin: 40px auto;
 }
 
-.fc-theme-standard .fc-scrollgrid, .fc-theme-standard td, .fc-theme-standard th {border:1px solid #4563d3;}
+.fc .fc-scrollgrid {background-color: rgba(255,255,255,0.3);}
+.fc-col-header-cell,.fc-theme-standard .fc-list-day-cushion {background:#98abda; color:white;}
+.fc-theme-standard .fc-scrollgrid, .fc-theme-standard td, .fc-theme-standard th, .fc-theme-standard .fc-list {border:1px solid #4563d3;}
 .fc .fc-scrollgrid {border-right:0px; border-bottom:0px;}
 .fc .fc-daygrid-day.fc-day-today {background-color:rgba(255,255,255,0.5);}
 
@@ -63,6 +67,10 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
 
 @media screen and (max-width: 480px) {
 
-    
+    .fc .fc-toolbar {flex-wrap:wrap;}
+	.fc .fc-button {font-size:12px;}
+	.fc .fc-button-group {margin:7px 0px;}
+	.fc .fc-toolbar-title {font-size:18px;}
+	.fc table {font-size:12px;}
     
 }

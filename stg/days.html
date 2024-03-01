@@ -55,7 +55,7 @@
 
 <script>
 $(function(){
-    $("a.fc-event").attr("target", "_blank");
+    $("a").prop("target", "_blank");
 })
 </script>
 
@@ -69,11 +69,14 @@ $(function(){
 
 	<p class="page_title"><span class="material-icons">auto_awesome</span> 那些日子 <span class="material-icons reverse">auto_awesome</span></p>
 
-	<div id='calendar'></div>
+	<div id="clndr_con">
+		<div id='calendar'></div>
+	</div>
+	
 
 
 
-
+</div>
 
 <footer></footer>
 
