@@ -19,9 +19,6 @@ $(function(){
 
     //$("a.fc-event").attr("target", "_blank");
 
-
-    
-
 })
 
 
@@ -38,29 +35,42 @@ document.addEventListener('DOMContentLoaded', function() {
       eventSources: [
 
         // your event source
+        // cover
         {
           events: [ // put the array in the `events` property
             {
-              title  : '1st Anni',
-              start  : '2024-03-12'
-            },
-            {
-              title  : 'iDol Radio',
-              start  : '2024-03-06',
-              url: 'https://www.jk2u.com.tw/'
+              title  : '💙第一首cover',
+              start  : '2022-07-28',
+              url: 'https://www.youtube.com/watch?v=zxAQ6YH3gAw'
             }
           ],
-          color: 'black',     // an option!
-          textColor: 'yellow', // an option!
-          
+          color: 'white',     // an option!
+          textColor: '#4563d3', // an option!
           eventClick: function(info) {
             info.jsEvent.preventDefault(); // don't let the browser navigate
-        
             if (info.event.url) {
               window.open(info.event.url, "_blank");
             }
           }
-          
+        },
+        // LIVE
+        {
+            events: [ // put the array in the `events` property
+              {
+                title  : '💙第一次LIVE亮相',
+                start  : '2022-09-25',
+                url: 'https://www.youtube.com/watch?v=2l2nip8yy0g'
+              }
+            ],
+            color: '#4563d3',     // an option!
+            textColor: 'white', // an option!
+            eventClick: function(info) {
+              info.jsEvent.preventDefault(); // don't let the browser navigate
+              if (info.event.url) {
+                window.open(info.event.url, "_blank");
+              }
+            }
+        
         }
        ]
     });
