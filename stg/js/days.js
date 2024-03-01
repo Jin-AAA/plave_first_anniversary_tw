@@ -17,7 +17,7 @@ $(function(){
 
     // calendar.render();
 
-    $("a.fc-event").attr("target", "_blank");
+    //$("a.fc-event").attr("target", "_blank");
 
 
     
