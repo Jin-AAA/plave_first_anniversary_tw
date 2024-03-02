@@ -3,6 +3,9 @@
 
 body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:cover;}
 
+.group {margin:60px;}
+.group p {font-size:18px; line-height:30px; color:#4563d3; text-align:center;}
+
 #clndr_con {height:90vh;}
 
 #calendar {
@@ -66,6 +69,8 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
 
 
 @media screen and (max-width: 480px) {
+
+	.group p {font-size:15px; line-height:24px;}
 
     .fc .fc-toolbar {flex-wrap:wrap;}
 	.fc .fc-button {font-size:12px;}
