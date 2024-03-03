@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     {title  : '舞蹈45位出爐',start  : '2023-06-26',url: 'https://www.youtube.com/watch?v=al0Af_vgWLg）'},
                     {title  : '🖤贏了威廉得到PS',start  : '2023-07-21',url: 'https://www.youtube.com/watch?v=D7xKXrcpPOc&t=5256s）'},
                     {title  : '一起過中秋節',start  : '2023-09-25',url: 'https://www.youtube.com/watch?v=P1Jm7QauVO0'},
-                    {title  : '🖤生日',start  : '2023-11-01',url: 'https://www.youtube.com/watch?v=XGPFGClyQQk'},
                     {title  : '💗得到大西瓜',start  : '2023-11-20',url: 'https://www.youtube.com/watch?v=bUfy-WQCMZ0&t=7444s）'},
                     {title  : '一起跨年',start  : '2023-12-31',url: 'https://www.youtube.com/watch?v=oGDeUi8cdUI&t=10s'},
                     {title  : '❤️ - Loving You Girl',start  : '2023-03-30',url: 'https://www.youtube.com/watch?v=6t76i9ksZJE'},

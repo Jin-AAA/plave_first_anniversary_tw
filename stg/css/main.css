@@ -29,6 +29,9 @@ ul, li {list-style:none;}
     font-style: normal;
 }
 
+.group {margin:60px;}
+.group p {font-size:18px; line-height:30px; color:#4563d3; text-align:center;}
+
 /* loading */
 /* .se-pre-con {position:fixed; left:0px; top:0px; width:100%; height:calc(var(--vh, 1vh) * 100); z-index:9999; background: #e2efff;}
 .se-pre-con .img {position:fixed; left:calc(50% - 150px); top:calc(50% - 150px); width: 300px; margin:0 auto;}
@@ -147,6 +150,8 @@ footer a {color:white;}
     header .nav {display:none; width:100%; height:calc(100vh - 60px); position:absolute; top:60px; flex-wrap:wrap; align-content:flex-start; background:#4563d3; z-index:5;}
     header .nav a {display:block; margin:auto; width:90%; padding:30px 0px; color:white; font-size:20px; text-align:center;}
     
+    .group {font-size:15px; line-height:24px; margin:40px;}
+
 }
 
 

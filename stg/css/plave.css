@@ -7,9 +7,6 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
 
 .pic_a {display:block; width:100%; margin:0px auto 80px auto; opacity:0;}
 
-.group {margin-bottom:60px; opacity:0;}
-.group p {font-size:18px; line-height:30px; color:#4563d3; text-align:center;}
-
 .member {display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; margin:30px auto 0px auto;}
 .member img {width:40%; margin:2%;}
 .member .member_info {width:40%; margin:2%;}
@@ -27,7 +24,6 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
 @media screen and (max-width: 480px) {
 
     .pic_a {margin:20px auto;}
-    .group p {font-size:15px; line-height:24px;}
 
     .member {flex-wrap:wrap;}
     .member img {width:70%;}
