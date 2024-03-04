@@ -2,9 +2,11 @@ $(function(){
 
     $( "#tabs" ).tabs();
 
-    Fancybox.bind('[data-fancybox="yejun"]', {
-        //
-    });
+    Fancybox.bind('[data-fancybox="yejun"]', {});
+    Fancybox.bind('[data-fancybox="noah"]', {});
+    Fancybox.bind('[data-fancybox="bamby"]', {});
+    Fancybox.bind('[data-fancybox="eunho"]', {});
+    Fancybox.bind('[data-fancybox="hamin"]', {});
 
     // $('.yejun_main').slick({
     //     slidesToShow: 1,
