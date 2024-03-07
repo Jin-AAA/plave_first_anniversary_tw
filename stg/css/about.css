@@ -10,7 +10,7 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
     margin:-50px 0px 50px 0px;
 }
 
-.scorri{
+.scorri, .scorri_b{
     position: relative;
     display: flex;
     width: 100%;
@@ -19,7 +19,7 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
 
 .tithome{
     animation-name: marquee;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     flex-shrink: 0;
@@ -34,17 +34,42 @@ body, html {background:url(../images/bg_big.jpg) top center no-repeat; backgroun
     font-size: 40px;
 }
 
-.tithome li img {max-width:350px;}
+.tithome li img {max-width:150px;}
 
 @keyframes marquee {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
 
+.tithome_b{
+    animation-name: marquee_b;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    flex-shrink: 0;
+    margin:0px -2px;
+}
+
+.tithome_b li{
+    width: fit-content;
+    display: inline-block;
+    list-style: none;
+    margin-right:-5px;
+    font-size: 40px;
+}
+
+.tithome_b li img {max-width:150px;}
+
+@keyframes marquee_b {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
 
 @media screen and (max-width: 480px) {
 
     .cont {margin:-20px 0px 30px 0px;}
-    .tithome li img {max-width:200px;}
+    .tithome li img {max-width:150px;}
+    .tithome_b li img {max-width:150px;}
     
 }
