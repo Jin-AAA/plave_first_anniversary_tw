@@ -119,6 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     {title  : '《六夏》舞台',start  : '2023-08-26',url: 'https://www.youtube.com/watch?v=dE_ddOigeZA'},
                     {title  : '《Merry PLLIstmas》發行',start  : '2023-12-12',url: 'https://www.youtube.com/watch?v=KCT3ZagR9-M'},
                     {title  : '《ASTERUM : 134-1》發行',start  : '2024-02-26',url: 'https://www.youtube.com/watch?v=P0_Hn0DSTKY'},
+                    {title  : '《Show Champion》首次一位',start  : '2024-03-06',url: 'https://twitter.com/showchampion1/status/1765317215849464070'},
+                    {title  : '🎉出道一週年🎉',start  : '2024-03-12'},
                 ]
             },
             {//諾亞
