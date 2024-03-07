@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:cover;}
+body, html {background:url(../images/bg_big.jpg) top center no-repeat; background-size:cover; height:100vh;}
 
 
 .cont{
