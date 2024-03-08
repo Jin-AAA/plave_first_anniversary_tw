@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {background:url(../images/bg.jpg) center no-repeat fixed; background-size:cover;}
+
+#in_con {display:flex; flex-wrap:wrap; justify-content:center; align-items:center; align-content:center; height:90vh;}
+
+.slogan {display:block; width:70%; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 0.6rem #88ccfc); z-index:2; transform:scale(0.8); opacity:0;}
+
+/* .photo_slide {width:100vw; margin:-50px 0px 50px 0px; position:relative;
+    display: flex;
+    justify-content: space-between;}
+.photo_slide img {margin:0px 15px; width:30%; max-width:350px;
+    animation-name: marquee;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    flex-shrink: 0;
+} */
+
+.cont{
+    width: 100%;
+    overflow: hidden;
+    margin:-50px 0px 50px 0px;
+    transform:rotate(358deg) translate(0px, 0px);
+    opacity:0;
+}
+
+.scorri{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tithome{
+    animation-name: marquee;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    flex-shrink: 0;
+    margin:0px -2px;
+}
+
+.tithome li{
+    width: fit-content;
+    display: inline-block;
+    list-style: none;
+    margin-right:-5px;
+    font-size: 40px;
+}
+
+.tithome li img {max-width:350px;}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+h1 {font-size:30px; color:white; text-align:center; filter:drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc) drop-shadow(0 0 1rem #88ccfc); opacity:0;}
+
+.nav {display:flex; width:100%; align-items:center; justify-content:center; margin:30px auto; opacity:0;}
+
+
+@media screen and (max-width: 480px) {
+
+    #in_con {margin-top:5vh;}
+
+    .slogan {width:90%; fill:drop-shadow(0 0 5px #88ccfc) drop-shadow(0 0 0.6rem #88ccfc);}
+
+    /* .photo_slide {margin:-20px 0px 30px 0px;}
+    .photo_slide img {width:50%;} */
+    .cont {margin:-20px 0px 30px 0px;}
+    .tithome li img {max-width:200px;}
+
+    h1 {font-size:22px; fill: drop-shadow(0 0 4px #88ccfc) drop-shadow(0 0 4px #88ccfc) drop-shadow(0 0 1rem #88ccfc);}
+
+    .nav {flex-wrap:wrap;}
+    .btns {width:40%; padding:6px 20px; margin:7px 10px;}
+    .btns::after {width:40px; height:40px; right:-5px; top:-9px;}
+    
+}
